@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(207, 225, 241)
+}
+.bloque{
+    background-color: rgb(35, 17, 196);
+    color: rgb(0, 0, 0);
+    height: fit-content;
+    font-size: 40px;
+}
+
+.bloque__img{
+    margin: 0%;
+    width: 20%;
+}
+.arroz{
+    background-color: darkgoldenrod;
+    padding: 10%;
+    margin: 8%;
+    height: fit-content;
+    background-image: url(si.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.arroz__arabe--texto{
+text-align: center;
+font-size: 70px;
+}
+.botones{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.botones__stickers{
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    background-color: gold;
+    height: 65px;
+    border-radius: 6px;
+    font-size: 30px;
+    width: 185px;
+    text-align: center;
+}
+.botones__inicio{
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    background-color: gold;
+    padding: 12px 32px;
+    border-radius: 6px;
+    font-size: 30px;
+}
+.top{
+    background-color: rgb(150, 178, 202);
+    color: rgb(98, 141, 179);
+    width: 400px;
+    height:5%;
+}
+.Crear{
+    background-color: aqua;
+    width: 15%;
+    height: 100px;
+}
+.crear__boton{
+    width: 100px;
+    justify-content: flex-end;
+}
+.crear__texto{
+    align-content: end;
+    font-size: 18px;
+    height: 18px;
+    display: block;
+}
